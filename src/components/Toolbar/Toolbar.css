@@ -1,0 +1,20 @@
+.toolbar ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.toolbar ul li{
+    margin-right: 7px;
+    background-color: #000;
+}
+.toolbar li button{
+    box-sizing: border-box;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.active-filter button {
+    background-color: #545454;
+    color: #fff;
+}
